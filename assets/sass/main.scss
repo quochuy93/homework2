@@ -14,25 +14,27 @@ body {
 
 .container {
     padding: 5rem 18.7rem;
-}
-
-.footer {
+    height: 70rem;
+    width: 100%;
+    background-color: #aeb4b6;
     display: flex;
     justify-content: space-between;
-    h2 {
-        font-weight: 600;
-        font-size: 1.6rem;
-    }
-    ul {
-        list-style-type: none;
-        margin-top: 2.7rem;
-        font-size: 1.6rem;
-        line-height: 3rem;
-        word-spacing: 2px;
-    }
+}
 
-    a {
-        text-decoration: none;
-        color: #a9a8ac;
-    }
+.box {
+    height: 20rem;
+    width: 20rem;
+    border: 1px solid black;
+}
+
+.box1 {
+    background-color: red;
+}
+
+.box2 {
+    background-color: blue;
+}
+
+.box3 {
+    background-color: green;
 }
