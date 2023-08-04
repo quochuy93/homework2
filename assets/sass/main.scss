@@ -21,20 +21,33 @@ body {
     justify-content: space-between;
 }
 
-.box {
+.box{
     height: 20rem;
     width: 20rem;
     border: 1px solid black;
 }
 
-.box1 {
+.box1{
     background-color: red;
+    &:hover{
+        background-color: blue;
+        cursor: pointer;
+    }
 }
 
-.box2 {
+.box2{
     background-color: blue;
+    &:hover{
+        background-color: green;
+        cursor: pointer;
+    }
 }
 
-.box3 {
+.box3{
     background-color: green;
+    &:hover{
+        background-color: red;
+        cursor: pointer;
+    }
 }
+
