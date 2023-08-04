@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Helvetica, sans-serif;
+}
+body {
+    font-size: 1.6rem;
+}
+
+.container {
+    padding: 5rem 18.7rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    h2 {
+        font-weight: 600;
+        font-size: 1.6rem;
+    }
+    ul {
+        list-style-type: none;
+        margin-top: 2.7rem;
+        font-size: 1.6rem;
+        line-height: 3rem;
+        word-spacing: 2px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #a9a8ac;
+    }
+}
